@@ -1,0 +1,4 @@
+flet
+transformers
+huggingface_hub
+python-dotenv
