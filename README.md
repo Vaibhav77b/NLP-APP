@@ -29,7 +29,7 @@ cd your-repo
     # Create and activate a virtual environment:
 
 python3 -m venv venv
-source venv/bin/activate   # Linux/Mac --> For users using Fish its . venv/bin/activate
+source venv/bin/activate   # Linux/Mac --> For users using Fish its . venv/bin/activate.fish
 venv\Scripts\activate      # Windows
 
     # Install dependencies:
