@@ -40,6 +40,6 @@ pip install -r requirements.txt
 
 touch .env
 
-# Add your Hugging Face token:
+# Add your Hugging Face token in .env:
 
 HF_TOKEN=your_hf_token_here
