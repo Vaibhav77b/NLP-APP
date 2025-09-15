@@ -23,10 +23,11 @@ A Python desktop app for NLP tasks using Hugging Face models.
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/yourusername/your-repo.git
-cd your-repo
+# At home or any other directory you want to add to,
+git clone https://github.com/dev-vaibhav-0/NLP-APP.git
+cd ~/NLP-APP
 
-    # Create and activate a virtual environment:
+    # Create and activate a virtual environment(necessary):
 
 python3 -m venv venv
 source venv/bin/activate   # Linux/Mac --> For users using Fish its . venv/bin/activate.fish
