@@ -38,4 +38,4 @@ venv\Scripts\activate      # Windows
 pip install -r requirements.txt
 
     # Run the Application
-./main
+./main.exe
