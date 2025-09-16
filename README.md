@@ -19,7 +19,7 @@ A Python desktop app for NLP tasks using Hugging Face models.
 ---
 
 ## Installation
-
+Just copy and paste this in your terminal and look out for the virutal environment creation part that'll go according to your device
 1. Clone the repository:
 
 ```bash
@@ -27,20 +27,15 @@ A Python desktop app for NLP tasks using Hugging Face models.
 git clone https://github.com/dev-vaibhav-0/NLP-APP.git
 cd ~/NLP-APP
 
-    # Create and activate a virtual environment(necessary):
+    # Create and activate a virtual environment:
 
 python3 -m venv venv
-source venv/bin/activate   # Linux/Mac --> For users using Fish its . venv/bin/activate.fish
+source venv/bin/activate   # Linux/Mac --> For users using Fish(linux) its . venv/bin/activate.fish
 venv\Scripts\activate      # Windows
 
     # Install dependencies:
 
 pip install -r requirements.txt
 
-    # Create a .env file in the project root:
-
-touch .env
-
-# Add your Hugging Face token in .env:
-
-HF_TOKEN=your_hf_token_here
+    # Run the Application
+./main
