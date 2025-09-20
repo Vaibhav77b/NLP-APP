@@ -30,12 +30,14 @@ cd ~/NLP-APP
     # Create and activate a virtual environment:
 
 python3 -m venv venv
-source venv/bin/activate   # Linux/Mac --> For users using Fish(linux) its . venv/bin/activate.fish
+source venv/bin/activate   # Linux/Mac | --> For users using Fish(linux) its . venv/bin/activate.fish
 venv\Scripts\activate      # Windows
 
     # Install dependencies:
 
 pip install -r requirements.txt
 
-    # Run the Application
-./main.exe
+    # Make a .env and make a variable named exactly-    HF_TOKEN   in HF_TOKEN add your Huggingface token
+
+    # After making .env, Run the Application
+python3 main.py
