@@ -1,4 +1,4 @@
-# My NLP Desktop App
+# NLP Desktop App
 
 A Python desktop app for NLP tasks using Hugging Face models.
 
@@ -41,3 +41,9 @@ pip install -r requirements.txt
 
     # After making .env, Run the Application
 python3 main.py
+```
+---
+
+# Cli
+
+To run the Cli, (No login) do python main-cli.py after making venvs and downloads requirements.txt
